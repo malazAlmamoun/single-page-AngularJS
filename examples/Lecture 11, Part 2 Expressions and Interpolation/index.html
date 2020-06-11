@@ -1,0 +1,18 @@
+
+
+<!DOCTYPE html>
+<html ng-app="MsgApp">
+  <head>
+    <meta charset="utf-8">
+    <title>Lecture 11 - AngularJS</title>
+  </head>
+  <script src="angular.min.js"></script>
+  <script src="app.js"></script>
+  <body ng-controller="MsgController">
+    <h1>Expressions & Interpolation</h1>
+    <span style="font-weight:bold">{{name}} Have New Message:</span>
+    <p>{{sayMessage()}}</p>
+    <button type="button" ng-click="changeImage()">Click here</button> <br> <br> <Br>
+    <img ng-src="images/state_{{state_of_person}}.jpg" alt="">
+  </body>
+</html>
